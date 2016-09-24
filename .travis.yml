@@ -3,6 +3,8 @@ dist: trusty
 language: csharp
 mono: none
 dotnet: 1.0.0-preview2-003131
+before-install:
+- sudo apt-get install libsnappy1 libsnappy-dev
 script:
 - dotnet restore
 - dotnet test ./test/Snappy.Tests -c Release
