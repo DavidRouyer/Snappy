@@ -18,7 +18,7 @@ namespace Snappy
                 Directory.CreateDirectory(folder);
                 var path = Path.Combine(folder, name);
                 byte[] contents;
-                using (var input = assembly.GetManifestResourceStream("Snappy.Resources." + name))
+                using (var input = assembly.GetManifestResourceStream("Snappy.Standard.Resources." + name))
                 using (var buffer = new MemoryStream())
                 {
                     byte[] block = new byte[4096];
