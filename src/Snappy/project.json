@@ -28,6 +28,10 @@
     "licenseUrl": "https://github.com/DavidRouyer/Snappy/LICENSE.md",
     "requireLicenseAcceptance": false,
     "releaseNotes": "Initial release.",
-    "tags": [ "snappy" ]
+    "tags": [ "snappy" ],
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/DavidRouyer/Snappy"
+    }
   }
 }
