@@ -1,4 +1,4 @@
-# Snappy for .NET Standard
+# Snappy for .NET Standard [![Build Status](https://travis-ci.org/DavidRouyer/Snappy.svg?branch=master)](https://travis-ci.org/DavidRouyer/Snappy)
 
 .NET Standard client for Google's Snappy compression library inspired by [Snappy.NET](https://snappy.angeloflogic.com/).
 
